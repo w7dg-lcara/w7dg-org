@@ -8,11 +8,19 @@ email: w7dg.lcara@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   LCARA - W7DG is an ARRL affiliated club with many hams active in
   several facets of the hobby including Community Service, Contesting,
-  ETL, and Digital Voice and Data modes.
+  ELT, and Digital Voice and Data modes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LRadioClub
 github_username:  w7dg-lcara
+header_pages:
+  - lcara.markdown
+  - activities.markdown
+  - history.markdown
+  - reference.markdown
+  - contacts.markdown
+minima:
+  skin: w7dg-blue
 
 # Build settings
 theme: minima

@@ -1,0 +1,42 @@
+.site-title img {
+    padding-right: 0.5em;
+    padding-bottom: 5px;
+}
+
+.site-title {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.site-title::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col {
+    background-color:   #fdfdfd;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col h2 {
+    margin-top: 5px;
+}
+
+.col50 {
+    min-width: 200px;
+}
+
+.col100 {
+    min-width: 100%;
+}
