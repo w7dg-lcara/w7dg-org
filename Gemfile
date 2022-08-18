@@ -30,3 +30,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # For ruby 3.0
 gem "webrick"
+gem 'jekyll-admin', group: :jekyll_plugins
