@@ -1,7 +1,7 @@
 ---
-layout: page
 title: LCARA
-permalink: /lcara
+layout: page
+permalink: "/lcara/"
 ---
 
 <div class="column-container">
