@@ -1,7 +1,7 @@
 ---
-layout: activities_page
 title: Calendar
-permalink: /activities/calendar
+layout: activities_page
+permalink: "/activities/calendar/"
 ---
 
 <iframe id="open-web-calendar" 
@@ -10,4 +10,3 @@ permalink: /activities/calendar
     sandbox="allow-scripts allow-same-origin allow-top-navigation"
     allowTransparency="true" scrolling="no" 
     frameborder="0" height="600px" width="100%"></iframe>
-
