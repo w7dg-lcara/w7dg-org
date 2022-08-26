@@ -1,13 +1,13 @@
 ---
-layout: page
 title: Activities
-permalink: /activities/
+layout: page
+permalink: "/activities/"
 ---
 
 <div class="column-container">
 
 <div class="col full-col center" markdown=1>
-## [🗓 Calendar](/activities/calendar)
+## [🗓 Calendar](/activities/calendar/)
 </div>
 
 <div class="half-col col" markdown=1>
