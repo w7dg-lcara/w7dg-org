@@ -1,18 +1,17 @@
 ---
-layout: page
 title: History
-permalink: /history/
+layout: column_page
+permalink: "/history/"
 ---
 
-<div class="column-container">
-    <div class="col">
+{% column_span %}
         <b>
             Ed, K7WCT, Prepared This Summary of LCARA's History in
             Celebration of the Club's 70th Birthday
         </b>
-    </div>
+{% endcolumn_span %}
 
-    <div class="col">
+{% column_span %}
         <p>
 The Lower Columbia Amateur Radio Association (LCARA) had its
 beginning on May 30, 1948 when amateur radio operators (hams) responded to the
@@ -30,9 +29,9 @@ This history is divided into three parts.
             <li>The second “Memories with Stu” is where Stuart Farmer K7WF, a senior LCARA member, recalls the early days of our club.</li>
             <li>Finally, I will summarize our accomplishments each year starting in 2018.</li>
         </ol>
-    </div>
+{% endcolumn_span %}
 
-    <div class="col half-col" markdown=1>
+{% column %}
 ## 1: 70th Anniversary
 
 On May 30, 2018 the Lower Columbia Amateur Radio Association celebrated its 70th anniversary with a potluck and a congratulatory letter from Washington state Governor Inslee. The Governor’s letter and a brief history were enshrined in plaques for a wall.
@@ -109,8 +108,8 @@ into space.
 * LCARA is implementing microwave communication on a practical basis.
 * LCARA leads the state of Washington and the United States of America in emergency services drone operations and now operates with 5 drones, 7 drone pilots, FAA authorization to operate at night, and a trained ground team. In this great state we have operated from the Pacific Ocean to the borders of Idaho, Oregon, and Canada.
 * In 2017 in training and operations LCARA operations totaled 137 days, 2,343 hours, and 14,212 miles.
-</div>
-    <div class="col half-col" markdown=1>
+{% endcolumn %}
+{% column $}
 ## 2: Memories with Stu
 
 Stuart Farmer K7WF, a senior LCARA member, recalls the early days of our club.
@@ -203,4 +202,4 @@ through a donation and purchase we now have two wide screen televisions for
 better presentations in the LCARA clubhouse.
 
 We held a Christmas dinner potluck on December 8. 
-</div>
+{% endcolumn %}
