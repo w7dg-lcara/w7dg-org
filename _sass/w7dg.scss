@@ -21,22 +21,19 @@
     flex-direction: row;
 }
 
-.col {
+.column-container div {
     background-color:   #fdfdfd;
     margin-right: 1em;
     margin-left: 1em;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
 }
 
-.full-col {
-    width: 100%;
+.column-container div h2, .column-container div h3 {
+    margin-top: 5px;
 }
 
 .center {
     text-align: center;
-}
-
-.col h2, .col h3 {
-    margin-top: 5px;
 }

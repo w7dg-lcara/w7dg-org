@@ -1,33 +1,29 @@
 ---
 title: Activities
-layout: page
 permalink: "/activities/"
+layout: column_page
 ---
 
-<div class="column-container">
+{% column_span_center %}
+## [🗓 Calendar]({% link activities/calendar.markdown %})
+{% endcolumn_span_center %}
 
-<div class="col full-col center" markdown=1>
-## [🗓 Calendar](/activities/calendar/)
-</div>
-
-<div class="half-col col" markdown=1>
-
-## [Club Meetings](/activities/meetings.html)
+{% column %}
+## [Club Meetings]( {% link activities/meetings.markdown %})
 
 Meetings are held at the LCARA Clubhouse:
 
 [966 Lone Oak Rd., Longview WA.](https://goo.gl/maps/3idraVE6EDokB99N7)
 
 * 1st Wednesday – [Cowlitz ACS](http://cowlitzradio.org) Meeting
-* 2nd Wednesday – [Presentation Night](/activities/presentation_night.html)
-* 3rd Wednesday – [Business Meeting](/activities/business_meetings.html)
-* 4th Wednesday – [Technical Committee](/activities/technical_committee.html)
-* _5th Wednesday_ – [Social Night](/activities/social_night.html)
-</div>
+* 2nd Wednesday – [Presentation Night]({% link activities/presentation_night.markdown %})
+* 3rd Wednesday – [Business Meeting]({% link activities/business_meetings.markdown %})
+* 4th Wednesday – [Technical Committee]({% link activities/technical_committee.markdown %})
+* _5th Wednesday_ – [Social Night]({% link activities/social_night.markdown %})
+{% endcolumn %}
 
-<div class="half-col col" markdown=1>
-
-## [Licensing Exams](/activities/exams.html)
+{% column %}
+## [Licensing Exams]({% link activities/exams.markdown %})
 
 ARRL Exam Schedule: 2022 LCARA Licensing Exams
 
@@ -39,5 +35,4 @@ ARRL Exam Schedule: 2022 LCARA Licensing Exams
 All exam sessions will be held at the LCARA Clubhouse unless otherwise noted.
 We only take pre-registrations, no walk-ins. If you are interested, please
 pre-register via email to: [w7dg.lcara@gmail.com](mailto:w7dg.lcara@gmail.com).
-</div>
-</div>
+{% endcolumn %}

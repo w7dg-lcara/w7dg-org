@@ -345,6 +345,6 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
   .half-col {
-    width: calc(50% - (#{$spacing-unit} * 1.75));
+    width: calc(50% - (#{$spacing-unit} * 1.75)) !important;
   }
 }

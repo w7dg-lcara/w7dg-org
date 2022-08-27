@@ -4,18 +4,15 @@ layout: page
 permalink: "/lcara/"
 ---
 
-<div class="column-container">
-<div class="col" markdown=1>
-
+{% column_span %}
 The LCARA ~ W7DG ~ is an ARRL Affiliated Club and has had up to 100 members.
 Due to our many volunteers and their countless hours of service, we’ve helped
 make a difference in our community in times of emergency, showing that amateur
 radio remains a valuable resource recognized by our local governments and other
 organizations.
+{% endcolumn_span %}
 
-</div>
-<div class="half-col col" markdown=1>
-
+{% column %}
 ## Officers (2022-2023)
 
 * President: Ralph Roggenback N2RJR
@@ -25,12 +22,9 @@ organizations.
 * Trustee: Kevin Moore KC6FLG (2022-2025)
 
 <img src="/images/w7dg-clubhouse.jpg">
-
-</div>
-<div class="half-col col" markdown=1>
-
+{% endcolumn %}
+{% column %}
 ## Dues
-
 * Member: $35
 * Senior Member (Over 80): $10.00
 * Junior Member (18 and Under): $10.00
@@ -47,10 +41,9 @@ to provide updated contact information.
 * [PDF Format](http://w7dg.org/downloads/2019LCARA_application.pdf)
 
 Last updated (2019/12).
-</div>
+{% endcolumn %}
 
-<div class="col" markdown=1>
-
+{% column_span %}
 ## Facility
 The club operates an array of 5 multi-mode HF stations in its club facility
 located northerly of Longview Washington. Frequently active on contest
@@ -67,7 +60,4 @@ Department of Emergency Management.
 * [LCARA Constitution and Bylaws (03/17/2021, PDF)](https://w7dg-lcara.github.io/static/documents/ConstitutionAndBylaws2021.pdf)
 * [LCARA/ACS Information Sheet (08/2021, PDF)](https://w7dg-lcara.github.io/static/documents/2021LCARA-ACS-Handout.pdf)
 * [LCARA Repeater Operation Rules (01/22/2020, PDF)](https://w7dg-lcara.github.io/static/documents/LCARA-RepeaterRules1-22-20.pdf)
-
-</div>
-
-</div>
+{% endcolumn_span %}

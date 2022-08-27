@@ -1,15 +1,12 @@
 ---
 title: Reference
-layout: page
+layout: column_page
 permalink: "/reference/"
 tags:
 - top-links
 ---
 
-<div class="column-container">
-<div class="half-col col" markdown=1>
-	
-
+{% column %}
 ## Links
 
 * [ARRL Printable Frequency Allocations](http://www.arrl.org/graphical-frequency-allocations)
@@ -17,11 +14,9 @@ tags:
 * [ARRL Links To FCC License Info And Forms](http://www.arrl.org/fcc-license-info-and-forms)
 * [ARRL Public Service Communications Manual](http://www.arrl.org/public-service-communications-manual)
 
-</div>
-<div class="half-col col" markdown=1>
-
+{% endcolumn %}
+{% column %}
 ## Common Frequencies
-
 * W7DG - LCARA Repeater (Columbia Heights)
   * 147.26, + offset, pl tone: 114.8
 * W7DG - LCARA Repeater (Woodland)
@@ -34,5 +29,4 @@ tags:
     * 147.24, + offset, pl tone: 94.8
 * WA7UHD - Chehalis Valley Amateur Radio Society
     * 147.06, + offset, pl tone: 110.9
-</div>
-</div>
+{% endcolumn %}
