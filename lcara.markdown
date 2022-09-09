@@ -1,7 +1,7 @@
 ---
 title: LCARA
-layout: page
 permalink: "/lcara/"
+layout: column_page
 ---
 
 {% column_span %}
