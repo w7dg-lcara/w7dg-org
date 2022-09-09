@@ -5,14 +5,11 @@ permalink: "/history/"
 ---
 
 {% column_span %}
-        <b>
-            Ed, K7WCT, Prepared This Summary of LCARA's History in
-            Celebration of the Club's 70th Birthday
-        </b>
+**Ed, K7WCT, Prepared This Summary of LCARA's History in
+Celebration of the Club's 70th Birthday**
 {% endcolumn_span %}
 
 {% column_span %}
-        <p>
 The Lower Columbia Amateur Radio Association (LCARA) had its
 beginning on May 30, 1948 when amateur radio operators (hams) responded to the
 the Vanport Flood. Amateur radio operators from Washington state reacted with
@@ -20,15 +17,13 @@ communication assistance to assist sheriffs and other search and rescue
 organizations fulfill their mission. And thus was born the Lower Columbia
 Amateur Radio Association (LCARA) which has been in service to the citizens of
 Washington state ever since.
-        </p>
-        <p>
+
+
 This history is divided into three parts.
-        </p>
-        <ol>
-            <li>The first is a description of our 70th Anniversary on May 30, 2018 which summarizes our accomplishments up to that point.</li>
-            <li>The second “Memories with Stu” is where Stuart Farmer K7WF, a senior LCARA member, recalls the early days of our club.</li>
-            <li>Finally, I will summarize our accomplishments each year starting in 2018.</li>
-        </ol>
+
+* The first is a description of our 70th Anniversary on May 30, 2018 which summarizes our accomplishments up to that point.
+* The second “Memories with Stu” is where Stuart Farmer K7WF, a senior LCARA member, recalls the early days of our club.
+* Finally, I will summarize our accomplishments each year starting in 2018.
 {% endcolumn_span %}
 
 {% column %}
