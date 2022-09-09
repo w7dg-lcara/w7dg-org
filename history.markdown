@@ -109,7 +109,7 @@ into space.
 * LCARA leads the state of Washington and the United States of America in emergency services drone operations and now operates with 5 drones, 7 drone pilots, FAA authorization to operate at night, and a trained ground team. In this great state we have operated from the Pacific Ocean to the borders of Idaho, Oregon, and Canada.
 * In 2017 in training and operations LCARA operations totaled 137 days, 2,343 hours, and 14,212 miles.
 {% endcolumn %}
-{% column $}
+{% column %}
 ## 2: Memories with Stu
 
 Stuart Farmer K7WF, a senior LCARA member, recalls the early days of our club.
